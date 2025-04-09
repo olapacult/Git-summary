@@ -21,9 +21,8 @@ thousands of branches to be developed in parallel across multiple machines.
 ## Basic commands in Git
 
 - **Starting a repository:**
-```
-git init                # Initialize a new Git repository
-git clone <url>         # Clone an existing repository
+    - Initialize a new Git repository `git init`
+    - Clone an existing repository `git clone <url>` 
 ```
 
 - **Saving changes**
