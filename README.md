@@ -23,23 +23,19 @@ thousands of branches to be developed in parallel across multiple machines.
 - **Starting a repository:**
     - Initialize a new Git repository `git init`
     - Clone an existing repository `git clone <url>` 
-```
 
 - **Saving changes**
-```
-git status              # Show current status of the working directory
-git add <file>          # Stage a file for commit
-git add .               # Stage all changed files
-git commit -m "Message" # Commit staged changes with a message
-```
+    - Current status of the working directory `git status`
+    - Stage a file for commit `git add <file>`
+    - Stage all changed files `git add .`
+    - Commit staged changes with a message `git commit -m "Message"` 
 
 - **Working with Remotes**
-```
-git remote -v           # List remotes
-git push                # Push commits to remote
-git pull                # Pull latest changes from remote
-git fetch               # Fetch changes without merging
-```
+    - List remotes `git remote -v` 
+    - Push commits to remote `git push`
+    - Pull latest changes from remote `git pull`  
+    - Fetch changes without merging `git fetch`
+    
 
 ## Working with Branches in Git
 
