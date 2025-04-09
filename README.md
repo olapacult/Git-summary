@@ -25,17 +25,17 @@ thousands of branches to be developed in parallel across multiple machines.
     - Clone an existing repository `git clone <url>` 
 
 - **Saving changes**
-    - Current status of the working directory `git status`
+    - Show current status of the working directory `git status`
     - Stage a file for commit `git add <file>`
     - Stage all changed files `git add .`
     - Commit staged changes with a message `git commit -m "Message"` 
 
 - **Working with Remotes**
-    - List remotes `git remote -v` 
-    - Push commits to remote `git push`
-    - Pull latest changes from remote `git pull`  
-    - Fetch changes without merging `git fetch`
-    
+    - List remote repositories: `git remote -v` 
+    - Push commits to remote repository: `git push`
+    - Pull latest changes from remote repository: `git pull`  
+    - Fetch changes from a remote repository without merging: `git fetch`
+
 
 ## Working with Branches in Git
 
@@ -61,8 +61,8 @@ fix bugs without affecting the working version of your project.
 `git branch -d <branch-name>`
 
 ### Merging Branches
-Merging a branch in Git involves combining the changes from one branch 
-into another, typically to integrate new features or updates into the main codebase.
+Merging a branch in Git combines the changes from one branch into another - typically 
+to integrate new features or updates into the main codebase.
 
 To merge changes from the selected branch into the current branch:
 `git merge <branch-name>`
@@ -73,11 +73,11 @@ A conflict in Git occurs when changes made in two different branches are incompa
 meaning they affect the same part of the code in conflicting ways. This usually 
 happens during a merge operation. 
 
-How to solve it?
+How to resolve a merge conflict:
 
 1. Git will indicate which files have conflicts after a merge attempt.
-2. Git marks the conflicting areas in the file with special markers 
+2. Open the conflicted files. Git marks the conflicting areas in the file with special markers 
 (<<<<<<<, =======, >>>>>>>), showing both versions of the code.
 3. Manually edit the file to decide which changes to keep or how to combine them.
-4. Mark the conflict as resolved: After editing, save the file and run git add <filename> to mark the conflict as resolved.
+4. After editing, save the file and run git add <file> to mark the conflict as resolved.
 5. Finally, commit the resolved changes with git commit to finish the merge process.
