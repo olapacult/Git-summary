@@ -76,8 +76,8 @@ happens during a merge operation.
 How to resolve a merge conflict:
 
 1. Git will indicate which files have conflicts after a merge attempt.
-2. Open the conflicted files. Git marks the conflicting areas in the file with special markers 
-(<<<<<<<, =======, >>>>>>>), showing both versions of the code.
+2. Open the conflicted files. Git marks the conflicting areas in the file with special 
+markers (<<<<<<<, =======, >>>>>>>), showing both versions of the code.
 3. Manually edit the file to decide which changes to keep or how to combine them.
 4. After editing, save the file and run git add <file> to mark the conflict as resolved.
 5. Finally, commit the resolved changes with git commit to finish the merge process.
